@@ -17,8 +17,6 @@
     
 }
 
-@property(nonatomic,assign) NSInteger undoSteps;
-
 -(void)undoButtonClicked;
 -(void)redoButtonClicked;
 

@@ -22,7 +22,7 @@
         
         // Arrays for saving undo-redo steps in arrays
         pathArray = [[NSMutableArray alloc] init];
-        bufferArray=  [[NSMutableArray alloc] init];
+        bufferArray =  [[NSMutableArray alloc] init];
     }
     return self;
 }
@@ -63,7 +63,7 @@
 -(void)undoButtonClicked
 {
     if([pathArray count]>0){
-        UIBezierPath *_path=[pathArray lastObject];
+        UIBezierPath *_path = [pathArray lastObject];
         [bufferArray addObject:_path];
         [pathArray removeLastObject];
         [self setNeedsDisplay];
@@ -73,7 +73,7 @@
 -(void)redoButtonClicked
 {
     if([bufferArray count]>0){
-        UIBezierPath *_path=[bufferArray lastObject];
+        UIBezierPath *_path = [bufferArray lastObject];
         [pathArray addObject:_path];
         [bufferArray removeLastObject];
         [self setNeedsDisplay];

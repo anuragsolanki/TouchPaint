@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		759DC05C15735B0C00ECF5B4 /* PatternPaint.png in Resources */ = {isa = PBXBuildFile; fileRef = 759DC05A15735B0C00ECF5B4 /* PatternPaint.png */; };
+		759DC05D15735B0C00ECF5B4 /* redBrushPaint.png in Resources */ = {isa = PBXBuildFile; fileRef = 759DC05B15735B0C00ECF5B4 /* redBrushPaint.png */; };
 		75BCA884156F885500FC9981 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BCA883156F885500FC9981 /* UIKit.framework */; };
 		75BCA886156F885500FC9981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BCA885156F885500FC9981 /* Foundation.framework */; };
 		75BCA888156F885500FC9981 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BCA887156F885500FC9981 /* CoreGraphics.framework */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		759DC05A15735B0C00ECF5B4 /* PatternPaint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PatternPaint.png; sourceTree = "<group>"; };
+		759DC05B15735B0C00ECF5B4 /* redBrushPaint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redBrushPaint.png; sourceTree = "<group>"; };
 		75BCA87F156F885500FC9981 /* TouchPaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75BCA883156F885500FC9981 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		75BCA885156F885500FC9981 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -106,6 +110,8 @@
 		75BCA88A156F885500FC9981 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				759DC05A15735B0C00ECF5B4 /* PatternPaint.png */,
+				759DC05B15735B0C00ECF5B4 /* redBrushPaint.png */,
 				75BCA8AB156F88FB00FC9981 /* pattern2.jpg */,
 				75BCA8AC156F88FB00FC9981 /* pattern1.jpg */,
 				75BCA8AD156F88FB00FC9981 /* pattern.jpg */,
@@ -172,6 +178,8 @@
 				75BCA8AE156F88FB00FC9981 /* pattern2.jpg in Resources */,
 				75BCA8AF156F88FB00FC9981 /* pattern1.jpg in Resources */,
 				75BCA8B0156F88FB00FC9981 /* pattern.jpg in Resources */,
+				759DC05C15735B0C00ECF5B4 /* PatternPaint.png in Resources */,
+				759DC05D15735B0C00ECF5B4 /* redBrushPaint.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +300,7 @@
 				75BCA89F156F885600FC9981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
